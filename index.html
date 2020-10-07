@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>motivation</title>
+</head>
+<body>
+
+<p>enter text hard....</p>
+<label for="fname">First name:</label>
+<input type="text" id="myText" name="fname">
+<button onclick="myFunction()">click</button>
+<p id="demo"></p>
+<script>
+    function myFunction() {
+  var x = document.getElementById("myText").value;
+    if(x== "hard"){
+        document.getElementById("demo").innerHTML = "easy";
+    }
+    else{
+        document.getElementById("demo").innerHTML = "write hard plzz";
+    }
+  
+}
+</script>
+</body>
+</html>
